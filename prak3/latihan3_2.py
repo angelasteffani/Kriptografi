@@ -1,0 +1,10 @@
+oktal = input("Masukkan bilangan oktal: ")
+desimal = int(oktal, 8)
+biner = bin(desimal)
+heksa = hex(desimal)
+
+print("\n== HASIL KONVERSI ==")
+print(f"Oktal       : {oktal}")
+print(f"Desimal     : {desimal}")
+print(f"Biner       : {biner[2:]}")
+print(f"Hexadesimal : {heksa[2:].upper()}")
