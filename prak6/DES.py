@@ -182,7 +182,7 @@ class DESUI:
         root.geometry("900x720")
         root.configure(bg="#1E1E1E")
 
-        tk.Label(root, text="ROHANA (41)",
+        tk.Label(root, text="Fanizer (26)",
                  font=("Segoe UI", 18, "bold"),
                  bg="#1E1E1E", fg="white").pack(anchor="w", padx=10, pady=10)
 
