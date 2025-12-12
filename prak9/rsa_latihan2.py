@@ -1,10 +1,8 @@
-# ===================== RSA LANGKAH PELAN SESUAI PPT =====================
-
 p = 53
 q = 199
 e = 193   # bilangan prima
 
-print("===== PROGRAM RSA (LANGKAH BERTAHAP SESUAI PPT) =====\n")
+print("===== PROGRAM RSA =====\n")
 
 # -------------------------------------------------------
 # 1. Menentukan p dan q
@@ -21,7 +19,7 @@ n = p * q
 print(f"n = {p} × {q} = {n}\n")
 
 # -------------------------------------------------------
-# 3. Hitung φ(n) = (p-1)(q-1) PELAN-PELAN SESUAI PPT
+# 3. Hitung φ(n) = (p-1)(q-1) 
 # -------------------------------------------------------
 print("LANGKAH 3: Hitung φ(n) = (p - 1)(q - 1)")
 p1 = p - 1

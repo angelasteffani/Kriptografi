@@ -1,7 +1,3 @@
-# ===================== RSA LATIHAN 1 =====================
-# p = 17, q = 11, e = 7
-# Mengikuti langkah-langkah pada PDF
-
 import math
 
 # ------------------ LANGKAH 1-5: GENERATE KUNCI ------------------
