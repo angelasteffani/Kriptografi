@@ -1,16 +1,11 @@
-# =====================================
-# ELGAMAL ENKRIPSI & DEKRIPSI
-# VERSI STABIL + MANUAL + TABEL
-# =====================================
 
-# ---------- INPUT ----------
 p = int(input("Masukkan p (prima): "))
 g = int(input("Masukkan g (generator): "))
 x = int(input("Masukkan kunci privat x: "))
 k = int(input("Masukkan nilai k (acak): "))
 plaintext = input("Masukkan plaintext (nama): ").strip().upper()
 
-# ---------- KUNCI PUBLIK ----------
+
 y = pow(g, x, p)
 
 print("\n=== PARAMETER ===")
